@@ -1,6 +1,6 @@
-# Pei-Hsuan Hsieh · Portfolio
+## Portfolio
 
-謝沛璇的個人作品集網站，就讀國立政治大學資訊管理學系。
+個人作品集網站
 
 **線上瀏覽 →** https://d3bbyii.github.io/portfolio/
 
