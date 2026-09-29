@@ -1,4 +1,4 @@
-## Portfolio
+# Portfolio
 
 個人作品集網站
 
@@ -11,7 +11,7 @@
 - 研究方向
 - 聯絡方式
 
-右上角可以切換中文和英文。
+可以切換中文和英文。
 
 ---
 
@@ -24,9 +24,10 @@
 | GovITUP | 課程專案・資料結構 | 只收錄官方網域來源的可信健康資訊搜尋引擎 |
 | GROUPIE | 課程專案・資料庫管理 | 依專長與角色偏好推薦組員的分組媒合平台 |
 | ChainPortfolio | 課程專案・資訊創新 | 把學習經歷變成可驗證 Badge NFT 的鏈上能力護照 |
-| Pomodoro Farm | 個人專案 | 以電腦視覺判斷專注狀態的番茄鐘（[Demo](https://pomodoro-farm.vercel.app)・[GitHub](https://github.com/d3bbyii/pomodoro-farm)） |
-| PIXPIECE | 個人專案 | 用手勢拍照的拼圖小遊戲（[Demo](https://pixpiece.vercel.app)・[GitHub](https://github.com/d3bbyii/pixpiece)） |
-| QRoove | 個人專案 | 把 YouTube 網址變成 3D 體素黑膠唱盤的點歌作品（[GitHub](https://github.com/d3bbyii/QRoove)） |
+| 永續轉型策略分析 | 課程專案・ESG 永續投資與綠色金融創新 | 以儒鴻與 Patagonia 為個案的企業永續轉型分析 |
+| Pomodoro Farm | 個人專案 | 以電腦視覺判斷專注狀態的番茄鐘（[Demo](https://pomodoro-farm.vercel.app) |
+| PIXPIECE | 個人專案 | 用手勢拍照的拼圖小遊戲（[Demo](https://pixpiece.vercel.app) |
+| QRoove | 個人專案 | 把 YouTube 網址變成 3D 體素黑膠唱盤的點歌作品 |
 
 ## 技術
 
@@ -35,7 +36,7 @@
 - 中英雙語切換。
 - 支援列印版面：用瀏覽器列印時，會自動改成白底並展開全文。
 
-## 檔案結構
+## 結構
 
 ```
 index.html          作品集主頁
@@ -49,4 +50,3 @@ qroove-demo.mp4     QRoove 示範影片
 ## 聯絡
 
 - Email：112306019@nccu.edu.tw
-- GitHub：[@d3bbyii](https://github.com/d3bbyii)
