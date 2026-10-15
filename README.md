@@ -25,8 +25,8 @@
 | GROUPIE | 課程專案・資料庫管理 | 依專長與角色偏好推薦組員的分組媒合平台 |
 | ChainPortfolio | 課程專案・資訊創新 | 把學習經歷變成可驗證 Badge NFT 的鏈上能力護照 |
 | 永續轉型策略分析 | 課程專案・ESG 永續投資與綠色金融創新 | 以儒鴻與 Patagonia 為個案的企業永續轉型分析 |
-| Pomodoro Farm | 個人專案 | 以電腦視覺判斷專注狀態的番茄鐘（[Demo](https://pomodoro-farm.vercel.app) |
-| PIXPIECE | 個人專案 | 用手勢拍照的拼圖小遊戲（[Demo](https://pixpiece.vercel.app) |
+| Pomodoro Farm | 個人專案 | 以電腦視覺判斷專注狀態的番茄鐘（[Demo](https://pomodoro-farm.vercel.app)） |
+| PIXPIECE | 個人專案 | 用手勢拍照的拼圖小遊戲（[Demo](https://pixpiece.vercel.app)） |
 | QRoove | 個人專案 | 把 YouTube 網址變成 3D 體素黑膠唱盤的點歌作品 |
 
 ## 技術
