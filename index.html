@@ -255,7 +255,7 @@ footer{text-align:center;font:500 13px/1.6 var(--pixel);color:var(--ink);letter-
     <a class="ic p3" href="#g-side"><div class="fold lc"><i>✧</i></div><span>side-projects</span></a>
     <a class="ic p5" href="#about"><div class="file"><i></i><i></i><i></i><i></i><b>TXT</b></div><span>about_me.txt</span></a>
     <a class="ic p6" href="#focus"><div class="file"><i></i><i></i><i></i><i></i><b>NEXT</b></div><span>master_plan.md</span></a>
-    <div class="note pn"><small>CERTIFIED ✓</small><span class="zh">iPAS 初級AI應用規劃師</span><span class="en">iPAS AI Application Planner (Associate)</span></div>
+    <div class="note pn"><small>CERTIFIED ✓</small><span class="zh">iPAS AI 初級應用規劃師</span><span class="en">iPAS AI Application Planner (Associate)</span></div>
   </div>
   <div class="hint" id="hint"><span class="zh">拖曳紙張翻轉 · 滑過點亮</span><span class="en">Drag the sheet to turn · hover to light it</span></div>
 </section>
@@ -630,8 +630,8 @@ function drawPaper(ctx,lang){
     ctx.strokeText('Pei-Hsuan', M-4, 600); ctx.fillText('Pei-Hsuan', M-4, 600);
     ctx.strokeText('Hsieh', M-4, 810); ctx.fillText('Hsieh', M-4, 810);
   }
-  const rows= zh ? [['EDU','國立政治大學 資訊管理學系'],['PROGRAM','金融科技專長學分學程'],['CERT','iPAS 初級AI應用規劃師']]
-                 : [['EDU','National Chengchi University, MIS'],['PROGRAM','FinTech Specialization Program'],['CERT','iPAS AI Application Planner']];
+  const rows= zh ? [['EDU','國立政治大學 資訊管理學系'],['PROGRAM','金融科技專長學分學程'],['CERT','iPAS AI 初級應用規劃師'],['FOCUS','資訊系統 · 資料分析 · AI 應用']]
+                 : [['EDU','National Chengchi University, MIS'],['PROGRAM','FinTech Specialization Program'],['CERT','iPAS AI Application Planner'],['FOCUS','Info Systems · Data · Applied AI']];
   let y=990;
   rows.forEach(([k,v])=>{
     ctx.strokeStyle='rgba(47,74,107,.35)'; ctx.lineWidth=2; ctx.setLineDash([10,8]);
