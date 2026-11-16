@@ -431,7 +431,7 @@ footer{text-align:center;font:500 13px/1.6 var(--pixel);color:var(--ink);letter-
 
       <!-- side -->
       <div class="group" id="g-side">
-        <div class="ghead"><h3><span class="zh">自主實作</span><span class="en">Side projects</span></h3><span class="n">× 4</span></div>
+        <div class="ghead"><h3><span class="zh">自主實作</span><span class="en">Side projects</span></h3><span class="n">× 5</span></div>
         <div class="proj">
           <article class="card" id="p-inventory">
             <div class="tb"><span class="ctl">— ×</span><span class="ttl">inventory-dashboard/</span><span class="dots"><i></i><i></i><i></i></span></div>
@@ -445,6 +445,20 @@ footer{text-align:center;font:500 13px/1.6 var(--pixel);color:var(--ink);letter-
               <p class="en">The results are told as a scrollytelling page with a simulator for service level, lead time and supplier delays. The data has no real stock levels or costs, so those are assumptions, labeled on the page.</p>
               <div class="chips"><span>Python</span><span>pandas</span><span>NumPy</span><span>ABC／XYZ</span><span>Forecasting</span><span>Safety stock · ROP · EOQ</span><span>Simulation</span><span>HTML · CSS · JS</span></div>
               <p class="links"><a href="https://inventory-dashboard-d3bby.vercel.app" target="_blank" rel="noopener"><span class="zh">線上瀏覽</span><span class="en">View the site</span> ↗</a></p>
+            </div>
+          </article>
+          <article class="card" id="p-seat">
+            <div class="tb"><span class="ctl">— ×</span><span class="ttl">let-me-see-seat/</span><span class="dots"><i></i><i></i><i></i></span></div>
+            <div class="shot"><img src="let-me-see-seat.png" alt="Let Me See Seat 首頁：坐在椅子上的像素小貓與找座位輸入框" loading="lazy"></div>
+            <div class="cb">
+              <div class="meta"><span class="pill s"><span class="zh">自主實作</span><span class="en">Side project</span></span><span class="pill"><span class="zh">全端・劃位系統</span><span class="en">Full stack · booking</span></span></div>
+              <h3>Let Me See Seat <span class="zh">線上劃位系統</span><span class="en">· online seat booking</span></h3>
+              <p class="zh">給活動主辦方與參加者的線上劃位網站。主辦方用 Google 登入後，可以建立活動、用編輯器畫出座位圖並發布；參加者透過活動連結或序號進場選位，熱門場次會先排隊，輪到的人限時選位，完成後可用預約編號查詢紀錄。</p>
+              <p class="en">A seat-booking site for event hosts and attendees. Hosts sign in with Google, create an event, draw the seat map in an editor and publish it. Attendees enter through an event link or an access code; busy events put them in a queue, each person gets a time limit to pick a seat, and bookings can be looked up later by booking number.</p>
+              <p class="zh">後端使用 Supabase：以 PostgreSQL 函式處理座位暫留、確認與排隊，頁面定時更新座位狀態，並用 Row Level Security 控制誰能讀寫哪些資料。上線前另外加入 Cloudflare Turnstile 人機驗證，並以 pg_cron 定期刪除過期名單，保護參加者個資。</p>
+              <p class="en">The back end runs on Supabase: PostgreSQL functions handle seat holds, confirmation and the queue, pages refresh seat status on a short interval, and Row Level Security controls who can read or write what. Before launch I added Cloudflare Turnstile bot checks and a pg_cron job that deletes expired attendee lists to protect personal data.</p>
+              <div class="chips"><span>React</span><span>Vite</span><span>Supabase</span><span>PostgreSQL</span><span>Row Level Security</span><span>Cloudflare Turnstile</span><span>Vercel</span></div>
+              <p class="links"><a href="https://let-me-see-seat.vercel.app" target="_blank" rel="noopener"><span class="zh">線上試用</span><span class="en">Live demo</span> ↗</a></p>
             </div>
           </article>
           <article class="card" id="p-focus">
@@ -659,7 +673,7 @@ function drawPaper(ctx,lang){
   handStar(ctx, TW-M-140, 1700, 120, -Math.PI/2+0.2, j, 'rgba(245,184,207,.95)', false);
   ctx.fillStyle=INK; ctx.textAlign='center'; ctx.font='700 40px '+PIX; ctx.fillText('MIS', TW-M-140, 1712); ctx.textAlign='left';
 
-  ctx.fillStyle=INK; ctx.font='700 36px '+PIX; ctx.fillText(zh?'作品 × 10':'10 projects', M, 1690);
+  ctx.fillStyle=INK; ctx.font='700 36px '+PIX; ctx.fillText(zh?'作品 × 11':'11 projects', M, 1690);
   ctx.fillStyle=SOFT; ctx.font=(zh?'32px '+ROUND:'500 30px '+GLU); ctx.fillText(zh?'往下捲動打開資料夾 ✦':'scroll down to open the folders ✦', M, 1745);
 }
 function makeTex(){
