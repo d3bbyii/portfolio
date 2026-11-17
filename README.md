@@ -29,7 +29,6 @@
 | Let Me See Seat | 個人專案 | 主辦方畫座位圖、參加者排隊選位的線上劃位系統（[Demo](https://let-me-see-seat.vercel.app)） |
 | Pomodoro Farm | 個人專案 | 以電腦視覺判斷專注狀態的番茄鐘（[Demo](https://pomodoro-farm.vercel.app)） |
 | PIXPIECE | 個人專案 | 用手勢拍照的拼圖小遊戲（[Demo](https://pixpiece.vercel.app)） |
-| QRoove | 個人專案 | 把 YouTube 網址變成 3D 體素黑膠唱盤的點歌作品 |
 
 ## 技術
 
@@ -44,7 +43,6 @@
 index.html          作品集主頁
 pomodoro-farm.html  Pomodoro Farm 專案介紹
 pixpiece.html       PIXPIECE 專案介紹
-qroove-demo.mp4     QRoove 示範影片
 ```
 
 在本機預覽時，直接用瀏覽器打開 `index.html` 即可。Three.js 與字型從 CDN 載入，所以需要連網。
